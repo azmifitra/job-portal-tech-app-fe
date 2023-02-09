@@ -1,0 +1,15 @@
+.cardJob {
+  @apply text-gray-500 line-clamp-2;
+  strong {
+    font-weight: 400;
+  }
+}
+
+.jobDetails {
+  li {
+    @apply ml-4 list-disc;
+  }
+  a {
+    @apply text-blue-500 underline;
+  }
+}
